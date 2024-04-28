@@ -1,0 +1,132 @@
+body{
+    background-image: url(img.webp);
+    background-size: cover;
+    text-align: center;
+    /* background-color: rgb(241, 11, 138); */
+margin: auto;
+}
+.simon{
+    font-size: 40px;
+    /* font-weight: 200; */
+    /* margin-left: 12vw; */
+    padding-left: 130px;
+    
+}
+.sted-div{
+    display: inline;
+}
+h3{
+    font-size: 23px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+.mdiv .btn{
+    border: 5px solid whitesmoke;
+    height:100px ;
+    width: 100px;
+    border-radius: 25%;
+    margin: 1rem;
+    
+
+}
+.sse{
+    display: flex; justify-content: center; align-items: center;
+      padding-top: 20px;
+}
+
+.mdiv{
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: rgb(213, 47, 47);
+}
+.blue{
+    background-color: rgb(38, 38, 237);
+}
+.yellow{
+    background-color: rgb(244, 244, 50);
+}
+.green{
+    background-color: rgb(75, 244, 75);
+}
+.start{
+    cursor: pointer;
+    margin-left: 20px;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: greenyellow;
+}
+.btn{
+    cursor: pointer;
+}
+.end{
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 30px;
+    border: 0px;
+    border-radius: 20px;
+    background-color:crimson;
+}
+.start:active{
+    background-color: green;
+    box-shadow: 4px 4px 10px green;
+}
+.end:active{
+    background-color: red;
+    box-shadow: 4px 4px 10px red;
+}
+
+.flash{
+    background-color: white;
+}
+@media (max-width:530px) {
+    .sse{
+        flex-direction: column;
+        
+        color: green;
+    }
+    .simon{
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+}
+@media (max-width:260px) {
+    .mdiv .btn{
+        border: 3px solid black;
+        height:95px ;
+        width: 95px;
+        border-radius: 25%;
+        margin: 0.5rem;
+        
+    
+    }
+}
+@media (max-width:230px) {
+    .simon{
+        font-size: 35px;
+    }
+    .mdiv .btn{
+        border: 2px solid black;
+        height:80px ;
+        width: 80px;
+        border-radius: 25%;
+        margin: 0.2rem;
+        
+    
+    }
+
+}
+@media (max-width:200px) {
+    .simon{
+        font-size: 31px;
+    }
+    .start,.end{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+
+}
